@@ -1,0 +1,28 @@
+letters/1854-03-12_Darwin_to_Hooker.txt
+letters/1854-03-15_Hooker_to_Darwin.txt
+letters/1855-07-01_Darwin_to_Wallace.txt
+
+-->
+
+date: 1854-03-12
+sender: Darwin
+recipient: Hooker
+
+date: 1854-03-15
+sender: Hooker
+recipient: Darwin
+
+date: 1855-07-01
+sender: Darwin
+recipient: Wallace
+
+
+# 2 pass processing
+# letters/(\d{4}-\d{2}-\d{2})_  --> date: \1\r\n
+# ([A-Za-z]+)_to_([A-Za-z]+).txt --> sender: \1\r\nrecipient: \2\r\n
+#
+# 1 pass processing
+# letters/(\d{4}-\d{2}-\d{2})_([A-Za-z]+)_to_([A-Za-z]+).txt  --> date: \1\r\nsender: \2\r\nrecipient: \3\r\n
+#
+# (\d{4}-\d{2}-\d{2}) – matches the date (e.g. 1854-03-12)
+# ([A-Za-z]+) – matches the names (e.g. Darwin)
