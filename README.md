@@ -1,4 +1,5 @@
 ### Material for Digital Humanities Activities, like workshops, 'Research Data Days' and 'Data Train Courses'
 
-#### Für den Workshop "KI in den Digital Humanities" am 9.7.2026 bitte die Datei ["KI Glossar - AI glossary.zip" herunterladen](KI-Glossar_AI-glossary.zip)
-#### Siehe auch [RAG-Workshop_BIS-Oldenburg.pdf](RAG-Workshop_BIS-Oldenburg.pdf)
+#### Data Train Course "Preparation and processing of textual data - AI-assisted application of Digital Humanities tools". Please download
+##### [Notepad++ Exercises File "canvas-of-characters.txt"](canvas-of-characters.txt)
+##### [The example data for OpenRefine "messy-edges.csv"](messy-edges.csv)
